@@ -51,3 +51,18 @@
   background-color: #dc3545;
   color: #ffffff;
 }
+
+.small{
+  padding: 4px 8px;
+  font-size: 12px ;
+}
+
+.medium{
+padding: 8px 16px;
+font-size: 16px;
+}
+
+.large{
+padding: 12px 24px;
+font-size: 20px;
+}
