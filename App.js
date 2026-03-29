@@ -7,7 +7,8 @@ function App() {
       <Button text="Click me" onClick={() => alert('clicked!')}/>
        <Button text="Primary" variant="primary" size="small" onClick={() => alert('clicked')} />
        <Button text="Secondary" variant="secondary" size="medium" onClick={() => alert('clicked')} />
-       <Button text="Danger" variant="danger"  size="large" onClick={() => alert('alert')} /> 
+       <Button text="Danger" variant="danger"  size="large" onClick={() => alert('alert')} />
+       <Button text="Disabled" variant="primary" size="medium" disabled={true} onClick={() => alert('clicked')} />
     </div>
   );
 }
