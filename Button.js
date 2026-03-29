@@ -1,9 +1,12 @@
 
-function Button({text, onClick, variant, size, disabled, isLoading}) {
+function Button({text, onClick, variant, size, disabled, isLoading, icon}) {
   return <button 
-   className={`${variant} ${size} `}  disabled={disabled || isLoading} onClick={onClick}>
+   className={`${variant} ${size} `}  disabled={disabled || isLoading}
+
+   onClick={onClick}>
     
-    { isLoading ?'Loading...' :  text}
+    {icon && <span className="button-icon">{icon}</span>}
+    { isLoading ?'Loading...' : text}
    </button>
 }
 
