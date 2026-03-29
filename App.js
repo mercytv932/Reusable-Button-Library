@@ -10,6 +10,7 @@ function App() {
        <Button text="Danger" variant="danger"  size="large" onClick={() => alert('alert')} />
        <Button text="Disabled" variant="primary" size="medium" disabled={true} onClick={() => alert('clicked!')} />
        <Button text="Submit" variant="primary" size="medium" isLoading={true} onClick={() => alert('clicked!')} />
+       <Button text="Delete" variant="danger" size="medium" icon="🗑️" onClick={() => alert('clicked!')} />
     </div>
   );
 }
